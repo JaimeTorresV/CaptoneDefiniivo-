@@ -1,0 +1,69 @@
+/* Estilos globales */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center; 
+}
+
+p {
+  text-align: left;
+}
+
+/* Hero */
+
+.hero img {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero .btn {
+  background-color: #ffc107;
+  border-color: #ffc107; 
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+/* Servicios */
+
+.services h2 {
+  font-size: 32px;
+  margin: 40px 0;
+} 
+
+.services h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.services p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+
+  .hero, 
+  .services {
+    text-align: center; 
+  }
+
+  .hero img {
+    margin: 0 auto;
+  }
+  
+}
